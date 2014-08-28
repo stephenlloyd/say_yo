@@ -1,5 +1,5 @@
 class SayYo
 	def self.yo
-		`say yo`
+		system('say yo')
 	end
 end
